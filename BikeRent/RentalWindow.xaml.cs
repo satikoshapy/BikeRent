@@ -9,16 +9,22 @@ namespace BikeRent
     public partial class RentalWindow : Window
     {
         //ToDo : you may add an extra constructor parameter to pass along information
-        public RentalWindow()
+        private Bike _bike;
+        public RentalWindow(Bike bike) 
         {
             InitializeComponent();
 
+            _bike = bike;
+            EnableControls(bike);
+            BindCurrentBike(bike);
+        }
+          
+
             //ToDo: call the following methods
-            //  EnableControls
-            //  BindCurrentBike
+            
 
             //ToDo: call UpdateDaysAndTotalPrice when the user moves the slider
-        }
+        
 
         private void UpdateDaysAndTotalPrice()
         {
@@ -71,17 +77,17 @@ namespace BikeRent
         }
 
         private void submitButton_Click(object sender, RoutedEventArgs e)
-        {        
+        {
             //ToDo: uncomment and provide proper exception handling
-            
-            //if (_bike.IsOccupied)
-            //{
-            //    ReturnTheBike();
-            //}
-            //else
-            //{
-            //    RentTheBike();
-            //}
+
+            if (_bike.IsOccupied)
+            {
+                ReturnTheBike();
+            }
+            else
+            {
+               RentTheBike();
+            }
             this.Close();
         }
 
@@ -89,23 +95,23 @@ namespace BikeRent
         {       
             //ToDo: uncomment
 
-            //DateTime startDate = BusinessRules.CheckStartDate(startDateTextBox.Text);
-            //string customer = customerTextBox.Text;
-            //int days = (int)daysSlider.Value;
+            DateTime startDate = BusinessRules.CheckStartDate(startDateTextBox.Text);
+            string customer = customerTextBox.Text;
+            int days = (int)daysSlider.Value;
 
-            //_bike.Rent(startDate, days, customer);
+            _bike.Rent(startDate, days, customer);
 
-            //MessageBox.Show("Nieuwe verhuring geaccepteerd");
+            MessageBox.Show("Nieuwe verhuring geaccepteerd");
         }
 
         private void ReturnTheBike()
         {
             //ToDo: uncomment
             
-            //double distance = Convert.ToDouble(kmTextBox.Text);
-            //_bike.Return(distance);
+            double distance = Convert.ToDouble(kmTextBox.Text);
+            _bike.Return(distance);
 
-            //MessageBox.Show("Fiets ingeleverd");
+            MessageBox.Show("Fiets ingeleverd");
         }
     }
 }

@@ -8,6 +8,9 @@ namespace BikeRent
         {
             StartDate = startDate;
             Customer = customer;
+            Price = pricePerDay;
+            EndDate = StartDate.AddDays(days);
+            Customer = customer;
 
             //ToDo: complete constructor
 

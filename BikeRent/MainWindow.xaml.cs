@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 
 namespace BikeRent
@@ -39,15 +41,55 @@ namespace BikeRent
             // ToDo:
             //  - Place info on the screen
             //  - look at the screenshots to know exactly what and when
+
+            idTextBlock.Text = "00" + bike.Id;
+            brandTextBlock.Text = bike.Brand;
+            typeTextBlock.Text = bike.Type;
+            descriptionTextBlock.Text = bike.Description;
+            maintenanceProgressBar.Maximum = bike.KmPerMaintenanceCycle;
+            maintenanceProgressBar.Value = bike.TotalDistance;
+            maintenanceTextBlock.Text = bike.TotalDistance + " / " + bike.KmPerMaintenanceCycle + " km";
+            genderImage.Source = GetBikeImageBy(bike.Gender);
+            if (bike is EBike ebike)
+            {
+                electricalImage.Source = _electricalImage;
+                batteryTextBlock.Text = ebike.BatteryCapacity + " Wh";
+            }
+            else
+            {
+                electricalImage.Visibility = Visibility.Collapsed;
+                batteryTextBlock.Text = "";
+            }
+            rentOrReturnButton.DataContext = bike;
+            rentOrReturnButton.Click += RentOrReturnButton_Click;
         }
 
-        private void rentOrReturnButton_Click(object sender, RoutedEventArgs e)
+        private void RentOrReturnButton_Click(object sender, RoutedEventArgs e)
         {
-            // ToDo: Show a new RentalWindow object as a modal dialog
-            //       and pass along the information from the CurrentBike.
-            //       After the RentalWindow is closed, update the information in
-            //       this window.
+            
+
+            Button clickedItem = sender as Button;
+
+            Bike bike = clickedItem.DataContext as Bike;
+
+            RentalWindow rentalWindow = new RentalWindow(bike);
+            rentalWindow.Show();
+
         }
+
+        private BitmapImage GetBikeImageBy(Gender gender)
+        {
+            if (gender == Gender.Male)
+            {
+                return _maleBikeImage;
+            }
+            else
+            {
+                return _femaleBikeImage;
+            }
+        }
+
+        
 
         private void exportItem_Click(object sender, RoutedEventArgs e)
         {

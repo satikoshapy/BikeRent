@@ -34,6 +34,10 @@ namespace BikeRent
         {
             //ToDo : a bike needs maintenance if its TotalDistance is greater than or equal to 
             //       its KmPerMaintenanceCycle
+            if (TotalDistance >= KmPerMaintenanceCycle)
+            {
+                return true;
+            }
             return false;
         }
 
@@ -72,12 +76,22 @@ namespace BikeRent
             //ToDo: create a new Rental object and insert it
             //      into the correct location in the list
             //      This Rental object will be the new current Rental
+
+            Rental rental = new Rental(startDate, days, BusinessRules.CalculatePrice(days, PricePerDay), customer);
+            _rentals.Add(rental);
         }
 
         public void Return(double distance)
         {
             //ToDo: find the current rental and fill out its distance.
             //      Don't forget to update the total distance!
+
+            Rental currentRental = FindCurrentRental();
+            if (currentRental != null) 
+            {
+                currentRental.Distance = distance;
+                TotalDistance += distance;
+            }
         }
     }
 }
