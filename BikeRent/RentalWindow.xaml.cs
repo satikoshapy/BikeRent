@@ -85,12 +85,29 @@ namespace BikeRent
             if (_bike.IsOccupied)
             {
                 ReturnTheBike();
+                this.Close();
             }
             else
             {
-               RentTheBike();
+                try
+                {
+                    RentTheBike();
+                    this.Close();
+                }
+
+                catch (ValidationException ex)
+                {
+                    
+                    MessageBox.Show(ex.Message);
+
+                    //startDateTextBox.Text = $"{DateTime.Now.Date}";
+                    startDateTextBox.Focus();
+                    
+                }
+                
+
             }
-            this.Close();
+            
         }
 
         private void RentTheBike()
