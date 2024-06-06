@@ -25,11 +25,11 @@ namespace BikeRent
         //      If you are at the end of the Bikes list, just start at the beginning.
         public void Next()
         {
-            if (_currentBikeIndex < Bikes.Count)
+            if (_currentBikeIndex < Bikes.Count - 1)
             {
                 _currentBikeIndex++;
             }
-            else
+            else if (_currentBikeIndex == Bikes.Count - 1)
             {
                 _currentBikeIndex = 0;
             }

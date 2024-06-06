@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\bikerent\\bikerent\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|solutionrelative:bikerent\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\bikerent\\bikerent\\rentalwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|solutionrelative:bikerent\\rentalwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\bikerent\\bikerent\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|solutionrelative:bikerent\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\bikerent\\bikerent\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|solutionrelative:bikerent\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\bikerent\\bikerent\\rentalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|solutionrelative:bikerent\\rentalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\bikerent\\bikerent\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|solutionrelative:bikerent\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\bikerent\\bikerent\\bikebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|solutionrelative:bikerent\\bikebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\bikerent\\bikerent\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|solutionrelative:bikerent\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\bikerent\\bikerent\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|solutionrelative:bikerent\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\bikerent\\bikerent\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|solutionrelative:bikerent\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\bikerent\\bikerent\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|solutionrelative:bikerent\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\bikerent\\bikerent\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|solutionrelative:bikerent\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\bikerent\\bikerent\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|solutionrelative:bikerent\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89CB8B45-7306-4667-A8D7-F4D61F9D555C}|BikeRent\\BikeRent.csproj|c:\\users\\sati\\onedrive - pxl\\bureaublad\\switch2it\\1-e jaar\\second semester\\.net\\bikerent\\bikerent\\ebike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,55 +50,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RentalWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\RentalWindow.xaml",
-              "RelativeDocumentMoniker": "BikeRent\\RentalWindow.xaml",
-              "ToolTip": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\RentalWindow.xaml",
-              "RelativeToolTip": "BikeRent\\RentalWindow.xaml",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "BikeRent\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\MainWindow.xaml",
+              "RelativeToolTip": "BikeRent\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-06T09:47:01.544Z",
+              "WhenOpened": "2024-06-06T11:49:58.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "BikeRent\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\MainWindow.xaml.cs",
               "RelativeToolTip": "BikeRent\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAABPAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAEQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:08:28.941Z"
+              "WhenOpened": "2024-06-05T21:08:28.941Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\Company.cs",
               "RelativeDocumentMoniker": "BikeRent\\Company.cs",
               "ToolTip": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\Company.cs",
               "RelativeToolTip": "BikeRent\\Company.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAARAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:04:24.327Z"
+              "WhenOpened": "2024-06-05T21:04:24.327Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BikeBase.cs",
-              "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\BikeBase.cs",
-              "RelativeDocumentMoniker": "BikeRent\\BikeBase.cs",
-              "ToolTip": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\BikeBase.cs",
-              "RelativeToolTip": "BikeRent\\BikeBase.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAqwFAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T19:56:24.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ValidationException.cs",
               "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\ValidationException.cs",
               "RelativeDocumentMoniker": "BikeRent\\ValidationException.cs",
@@ -110,25 +96,24 @@
               "RelativeToolTip": "BikeRent\\ValidationException.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAUwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T20:29:21.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T20:29:21.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RentalWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\RentalWindow.xaml.cs",
               "RelativeDocumentMoniker": "BikeRent\\RentalWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\RentalWindow.xaml.cs",
               "RelativeToolTip": "BikeRent\\RentalWindow.xaml.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAUwGkAAAARAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowIQAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T21:40:23.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "BusinessRules.cs",
               "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\BusinessRules.cs",
               "RelativeDocumentMoniker": "BikeRent\\BusinessRules.cs",
@@ -136,24 +121,24 @@
               "RelativeToolTip": "BikeRent\\BusinessRules.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAqwC8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T20:20:28.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T20:20:28.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Rental.cs",
               "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\Rental.cs",
               "RelativeDocumentMoniker": "BikeRent\\Rental.cs",
               "ToolTip": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\Rental.cs",
               "RelativeToolTip": "BikeRent\\Rental.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBQAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T19:56:41.202Z"
+              "WhenOpened": "2024-06-05T19:56:41.202Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "EBike.cs",
               "DocumentMoniker": "C:\\Users\\Sati\\OneDrive - PXL\\Bureaublad\\Switch2IT\\1-e jaar\\SECOND SEMESTER\\.NET\\BikeRent\\BikeRent\\EBike.cs",
               "RelativeDocumentMoniker": "BikeRent\\EBike.cs",

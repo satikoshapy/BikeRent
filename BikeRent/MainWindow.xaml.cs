@@ -60,6 +60,17 @@ namespace BikeRent
                 electricalImage.Visibility = Visibility.Collapsed;
                 batteryTextBlock.Text = "";
             }
+            if (bike.IsOccupied)
+            {
+                rentOrReturnButton.Content = "Retour";
+                rentStatusTextBlock.Visibility = Visibility.Visible;
+                rentStatusTextBlock.Text = $"Verhuurd aan {bike.FindCurrentRental().Customer} tot {bike.FindCurrentRental().EndDate}";
+            }
+            else
+            {
+                rentOrReturnButton.Content = "Huur";
+                rentStatusTextBlock.Visibility = Visibility.Hidden;
+            }
             rentOrReturnButton.Click -= RentOrReturnButton_Click;
             rentOrReturnButton.DataContext = bike;
             rentOrReturnButton.Click += RentOrReturnButton_Click;
@@ -74,8 +85,15 @@ namespace BikeRent
             Bike bike = clickedItem.DataContext as Bike;
 
             RentalWindow rentalWindow = new RentalWindow(bike);
+
+            rentalWindow.Closed += RentalWindow_Closed;
             rentalWindow.Show();
 
+        }
+
+        private void RentalWindow_Closed(object sender, EventArgs e)
+        {
+            BindCurrentBike(_company.CurrentBike); 
         }
 
         private BitmapImage GetBikeImageBy(Gender gender)
