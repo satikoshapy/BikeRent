@@ -22,15 +22,15 @@ namespace BikeRent
 
             if (days == 1)
             {
-                priceWithDiscount = pricePerDay;
+                priceWithDiscount = pricePerDay * days;
             }
             else if (days == 2)
             {
-                priceWithDiscount = pricePerDay * 0.8;
+                priceWithDiscount = pricePerDay * 0.8 * days;
             }
             else if (days > 2) 
             {
-                priceWithDiscount = pricePerDay * 0.7;
+                priceWithDiscount = pricePerDay * 0.7 * days;
             }
             
 

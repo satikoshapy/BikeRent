@@ -53,7 +53,7 @@
                 Click="nextButton_Click"/>
             <Button Content="Huur" HorizontalAlignment="Left" Name="rentOrReturnButton"
                 Margin="420,299,0,0" VerticalAlignment="Top" Width="100" Height="40" FontSize="18"
-                Click="rentOrReturnButton_Click"/>
+                />
         </Grid>
     </DockPanel>
 </Window>

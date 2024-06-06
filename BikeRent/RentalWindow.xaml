@@ -24,7 +24,7 @@
                    Text="Totaal (EUR)" />
         <TextBox Style="{StaticResource EntryStyle}" Margin="201,108,0,0"
                  Name="startDateTextBox"/>
-        <Slider HorizontalAlignment="Left" Margin="201,167,0,0" VerticalAlignment="Top"
+        <Slider ValueChanged="daysSlider_ValueChanged" HorizontalAlignment="Left" Margin="201,167,0,0" VerticalAlignment="Top"
                 Width="200" Minimum="1" Maximum="14" Name="daysSlider"
                 TickPlacement="BottomRight" IsSnapToTickEnabled="True" />
         <TextBlock Style="{StaticResource DarkDataStyle}" Margin="419,161,0,0" Text="XX"

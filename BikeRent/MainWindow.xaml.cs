@@ -60,6 +60,7 @@ namespace BikeRent
                 electricalImage.Visibility = Visibility.Collapsed;
                 batteryTextBlock.Text = "";
             }
+            rentOrReturnButton.Click -= RentOrReturnButton_Click;
             rentOrReturnButton.DataContext = bike;
             rentOrReturnButton.Click += RentOrReturnButton_Click;
         }

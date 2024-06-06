@@ -31,6 +31,8 @@ namespace BikeRent
             int days = (int)daysSlider.Value;
             daysTextBlock.Text = $"{days}";
             // ToDo: Use method CalculatePrice from class BusinessRules to set totalTextBlock.Text
+
+            totalTextBlock.Text = $"{BusinessRules.CalculatePrice(days, _bike.PricePerDay)}";
         }
 
         private void BindCurrentBike(BikeBase bike)
@@ -112,6 +114,15 @@ namespace BikeRent
             _bike.Return(distance);
 
             MessageBox.Show("Fiets ingeleverd");
+        }
+
+        private void daysSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+
+            if (IsLoaded) // Ensure that the window is fully loaded before updating values
+            {
+                UpdateDaysAndTotalPrice();
+            }
         }
     }
 }
